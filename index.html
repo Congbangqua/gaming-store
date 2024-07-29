@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>D_H Gaming Gear Store</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <img src="gaminggear.jpg" alt="Luxury Header" class="img-responsive img-thumbnail" style="height: 400px;">
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">D_H Gaming Gear Store</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="active dropdown-toggle" data-toggle="dropdown">Categories <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="category.html">Mouse</a></li>
+                            <li><a href="category.html">Keyboards</a></li>
+                            <li><a href="category.html">Headsets</a></li>
+                            <li><a href="category.html">Controllers</a></li>
+                            <li><a href="category.html">Monitors</a></li>
+                            <li class="divider"></li>
+                            <li><a href="index.html">All Categories</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#signInModal">Sign in</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron Section -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Welcome to D_H Gaming Gear Store!</h1>
+            <p>Experience the ultimate gaming experience with our premium gaming gear.</p>
+        </div>
+    </div>
+
+    <!-- Product Listing Section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Categories</h3>
+                <div class="list-group">
+                    <a href="category.html" class="list-group-item">Mouse</a>
+                    <a href="category.html" class="list-group-item">Keyboards</a>
+                    <a href="category.html" class="list-group-item">Headsets</a>
+                    <a href="category.html" class="list-group-item">Controllers</a>
+                    <a href="category.html" class="list-group-item">Monitors</a>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="gpro superlight.jpg" alt="GPRO X SUPERLIGHT WIRELESS" class="img-responsive">
+                            <div class="add-to-cart">
+                                <a href="#" class="glyphicon glyphicon-plus-sign" data-toggle="tooltip" data-placement="top" title="Add to cart"></a>
+                            </div>
+                            <div class="caption">
+                                <h4 class="pull-right">$149.99</h4>
+                                <h4><a href="product.html">GPRO X SUPERLIGHT WIRELESS WHITE</a></h4>
+                                <p>Wireless mouse</p>
+                                <div class="ratings">
+                                    <p class="pull-right"><a href="product.html#comments">15 reviews</a></p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Copyright &copy; <a href="index.html">D_H Gaming Gear Store</a> 2024</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sign in Modal -->
+    <div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="signInModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h2 class="modal-title" id="signInModalLabel">Sign in</h2>
+                </div>
+                <div class="modal-body">
+                    <form class="form-signin" role="form">
+                        <h3 class="form-signin-heading">Sign in with your email address</h3>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email address" required autofocus>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Password" required>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="remember-me"> Remember me
+                            </label>
+                        </div>
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                    </form>
+                </div>
+                <div class="row">
+                    <div class="col-xs-3">
+                        <a href="#" class="btn btn-facebook btn-large btn-caps btn-block">Facebook <span class="icon-facebook"></span></a>
+                    </div>
+<div class="col-xs-3">
+                        <a href="" class="btn btn-twitter btn-large btn-caps btn-block">Twitter <span class="icon-twitter"></span></a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="" class="btn btn-lg btn-caps btn-block"><span class="icon-dribbble"></span></a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div id="content" class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Manage Orders</h3>
+                <div class="list-group">
+                    <a href="account.html" class="list-group-item">All Order</a>
+                    <a href="account.html" class="list-group-item">Manage Feedback</a>
+                    <a href="account.html" class="list-group-item">My Coupons</a>
+                    <a href="account.html" class="list-group-item">My Shipping Address</a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="thumbnail">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <img src="http://placehold.it/750x600" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="product.html">Product Name</a>
+                        </div>
+                        <div class="col-sm-1">
+                            1
+                        </div>
+                        <div class="col-sm-2">
+                            $49.99
+                        </div>
+                        <div class="col-sm-2">
+                            <button class="btn btn-sm btn-default">Track</button>
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="#">1 Message</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <img src="http://placehold.it/750x600" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="product.html">Product Name</a>
+                        </div>
+                        <div class="col-sm-1">
+                            1
+                        </div>
+                        <div class="col-sm-2">
+                            $19.99
+                        </div>
+                        <div class="col-sm-2">
+                            <button class="btn btn-sm btn-success">Completed</button>
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="#">1 Message</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <img src="http://placehold.it/750x600" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="product.html">Product Name</a>
+                        </div>
+                        <div class="col-sm-1">
+                            1
+                        </div>
+                        <div class="col-sm-2">
+                            $39.99
+                        </div>
+                        <div class="col-sm-2">
+                            <button class="btn btn-sm btn-danger">Cancelled</button>
+                        </div>
+                        <div class="col-sm-2">
+                            <ahref="#">0 Messages</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <img src="http://placehold.it/750x600" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="product.html">Product Name</a>
+                        </div>
+                        <div class="col-sm-1">
+                            1
+                        </div>
+                        <div class="col-sm-2">
+                            $49.99
+                        </div>
+                        <div class="col-sm-2">
+                            <button class="btn btn-sm btn-default">Track</button>
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="#">1 Message</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <img src="http://placehold.it/750x600" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="product.html">Product Name</a>
+                        </div>
+                        <div class="col-sm-1">
+                            1
+                        </div>
+                        <div class="col-sm-2">
+                            $19.99
+                        </div>
+                        <div class="col-sm-2">
+                            <button class="btn btn-sm btn-success">Completed</button>
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="#">1 Message</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <img src="http://placehold.it/750x600" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="product.html">Product Name</a>
+                        </div>
+                        <div class="col-sm-1">
+                            1
+                        </div>
+                        <div class="col-sm-2">
+                            $39.99
+                        </div>
+                        <div class="col-sm-2">
+                            <button class="btn btn-sm btn-danger">Cancelled</button>
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="#">0 Messages</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <img src="http://placehold.it/750x600" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="product.html">Product Name</a>
+                        </div>
+                        <div class="col-sm-1">
+                            1
+                        </div>
+                        <div class="col-sm-2">
+                            $49.99
+                        </div>
+                        <div class="col-sm-2">
+                            <button class="btn btn-sm btn-default">Track</button>
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="#">1 Message</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <img src="http://placehold.it/750x600" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="product.html">Product Name</a>
+                        </div>
+                        <div class="col-sm-1">
+                            1
+                        </div>
+                        <div class="col-sm-2">
+                            $19.99
+                        </div>
+                        <div class="col-sm-2">
+                            <button class="btn btn-sm btn-success">Completed</button>
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="#">1 Message</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <img src="http://placehold.it/750x600" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="product.html">Product Name</a>
+                        </div>
+                        <div class="col-sm-1">
+                            1
+                        </div>
+                        <div class="col-sm-2">
+                            $39.99
+                        </div>
+                        <div class="col-sm-2">
+                            <button class="btn btn-sm btn-danger">Cancelled</button>
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="#">0 Messages</a>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>Featured Products</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="product">
+                                    <img src="http://placehold.it/750x600" alt="" class="img-responsive">
+                                    <h3>Product Name</h3>
+                                    <p>Product Description</p>
+                                    <button class="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product">
+                                    <img src="http://placehold.it/750x600" alt="" class="img-responsive">
+                                    <h3>Product Name</h3>
+                                    <p>Product Description</p>
+                                    <button class="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="product">
+                                    <img src="http://placehold.it/750x600" alt="" class="img-responsive">
+                                    <h3>Product Name</h3>
+                                    <p>Product Description</p>
+                                    <button class="btn btn-primary">Buy Now</button>
+                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
